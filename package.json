@@ -1,0 +1,25 @@
+{
+  "name": "assembly-demo",
+  "version": "1.0.0",
+  "description": "assembly学习",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsven/assembly-demo.git"
+  },
+  "keywords": [
+    "123456"
+  ],
+  "author": "leo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsven/assembly-demo/issues"
+  },
+  "homepage": "https://github.com/jsven/assembly-demo#readme",
+  "devDependencies": {
+    "assemblyscript": "^0.14.8"
+  }
+}
