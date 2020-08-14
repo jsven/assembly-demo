@@ -4,7 +4,10 @@
   "description": "assembly学习",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "asbuild:untouched": "asc assembly/index.ts --target debug",
+    "asbuild:optimized": "asc assembly/index.ts --target release",
+    "asbuild": "npm run asbuild:untouched && npm run asbuild:optimized"
   },
   "repository": {
     "type": "git",
@@ -21,5 +24,8 @@
   "homepage": "https://github.com/jsven/assembly-demo#readme",
   "devDependencies": {
     "assemblyscript": "^0.14.8"
+  },
+  "dependencies": {
+    "@assemblyscript/loader": "^0.14.8"
   }
 }
